@@ -1,5 +1,5 @@
 //Chiedo all’utente di inserire una parola 
-var userWord = prompt("Inserisci una parola");
+var userWord = prompt("Inserisci una parola").toLowerCase();
 //Creare una funzione per capire se la parola inserita è palindroma
 function isPalindrom(randomWord) {
     return randomWord == randomWord.split('').reverse().join('');

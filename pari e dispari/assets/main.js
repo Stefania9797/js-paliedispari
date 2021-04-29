@@ -1,5 +1,5 @@
 //L’utente sceglie pari o dispari 
-var oddOrEven = prompt("pari o dispari?");
+var oddOrEven = prompt("Pari o Dispari?").toLowerCase();
 //e inserisce un numero da 1 a 5.
 var userNumber = Number(prompt("Inserisci un numero da 1 a 5"));
 console.log(userNumber);
