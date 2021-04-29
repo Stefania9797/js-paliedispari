@@ -16,14 +16,15 @@ somma= userNumber + pcNumber;
 console.log(somma);
 //Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 function oddOrEvenSum(number_1 , number_2){
-    if(number_1 + number_2 % 2==0){
+    if((number_1 + number_2) % 2==0){
         return true;
     }
     return false;
 }
-//Dichiariamo chi ha vinto.
 if(oddOrEvenSum(userNumber , pcNumber)){
     console.log("la somma è pari");
 } else{
     console.log("la somma è dispari");
 }
+//Dichiariamo chi ha vinto.
+
