@@ -4,15 +4,15 @@ var oddOrEven = prompt("pari o dispari?");
 var userNumber = Number(prompt("Inserisci un numero da 1 a 5"));
 console.log(userNumber);
 alert("il tuo numero è "+userNumber);
-var pcNumber = RandomNumber(1,6);
-console.log(pcNumber);
-alert("il numero del computer è "+pcNumber);
 //Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
 function RandomNumber(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min) + min);
 }
+var pcNumber = RandomNumber(1,6);
+alert("il numero del computer è "+pcNumber);
+console.log(pcNumber);
 //Sommiamo i due numeri 
 somma= userNumber + pcNumber;
 console.log(somma);
